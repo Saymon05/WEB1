@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: "Minha Fonte";
+    src: url(../Tilt_Prism/TiltPrism-Regular-VariableFont_XROT\,YROT.ttf);
+}
+
+:root {
+    --x: "Minha Fonte";
+    --y: Jokerman;
+}

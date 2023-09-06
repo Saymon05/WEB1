@@ -1,0 +1,41 @@
+img {
+    width: 100%;
+}
+
+@media screen and (min-width: 520px) and (max-width: 767px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    section {
+        width: 45%;
+    }
+
+   /*  img {
+        width: 200px;
+    } */
+}
+
+@media screen and (min-width: 767px){
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    section {
+        width: 23%;
+    }
+  /*   img {
+        width: 190px;
+    } */
+}
+
+@media print {
+    body {
+        background-color: blue;
+    }
+    h1 {
+        text-align: center;
+    }
+}

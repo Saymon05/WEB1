@@ -1,0 +1,67 @@
+
+body {
+    background-color: rgba(0, 0, 0, 0.342);
+ }
+ header{
+    background-color: brown;
+    padding: 8px;
+    border-radius: 20px;
+ }
+
+a {
+ background-color: rgb(103, 103, 231);
+ color: rgb(243, 238, 238);
+ padding: 5px;
+ text-decoration: none;
+ border: 0.2px solid;
+ border-radius: 20px;
+}
+
+a:hover{
+ color:black;
+ background-color: rgba(0, 0, 0, 0.219);
+}
+
+h1 {
+ text-align: center;
+ color: rgb(0, 0, 0);
+}
+
+p{
+ text-align: justify;
+}
+
+button {
+ background-color: rgb(103, 103, 231);
+ color: rgba(255, 255, 255, 0.938);
+ padding: 6px;
+ font-size: 1.em;
+ border: 0.2px solid;
+}
+
+.bt-Salvar {
+ color: white;
+ background-color: rgb(202, 140, 23);
+}
+
+.bt-Excluir {
+ color: white;
+ background-color: rgb(199, 74, 74);
+}
+
+.bt-Clicar {
+ color: white;
+ background-color: rgb(64, 197, 197);
+}
+
+button:hover {
+ 
+ color:black;
+ background-color: rgba(0, 0, 0, 0.219);
+}
+
+#p1 {
+ text-align: right;
+ font-style: italic;
+ font-size: small;
+}

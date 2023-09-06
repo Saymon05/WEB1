@@ -1,0 +1,20 @@
+@import url(../Css/fonts.css);
+@import url(../Css/color.css);
+
+body {
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+h1 {
+    font-family: var(--x);
+    color: rgb(54, 54, 156);
+    background-color: coral;
+    text-align: center;
+}
+p {
+    font-family: var(--y);
+    font-size: 20px;
+    /* color: rgb(54, 54, 156);  */
+    color: var(--oo);
+}
+
